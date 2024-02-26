@@ -1,0 +1,113 @@
+<!DOCTYPE html> cl
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pros Cons</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div>
+        <div class="pros-container">
+          <h3>Pros</h3>
+          <ul>
+            <i class="fa-solid fa-check"></i
+            >Good Quality
+          </ul>
+          <ul>
+            <i class="fa-solid fa-check"></i
+            >Good Size
+          </ul>
+          <ul class="last">
+            <i class="fa-solid fa-check"></i>
+            Fast Delivery
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="cons-container">
+          <h3>Cons</h3>
+          <ul>
+            <i class="fa-solid fa-check"></i>
+            Good Quality
+          </ul>
+          <ul>
+            <i class="fa-solid fa-check"></i
+            >Good Size
+          </ul>
+          <ul class="last">
+            <i class="fa-solid fa-check"></i>
+            Fast Delivery
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    i {
+      font-size: 26px;
+      margin-right: 20px;
+      vertical-align: middle;
+    }
+    .main-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .pros-container {
+      width: 350px;
+      border-radius: 20px 20px 20px 20px;
+      box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.22);
+      background-color: #57cc99;
+    }
+
+    .cons-container {
+      width: 350px;
+      border-radius: 20px 20px 20px 20px;
+      box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.22);
+      background-color: #ff6666;
+    }
+
+    h3 {
+      font-size: 32px;
+      font-weight: bold;
+      padding-top: 20px;
+      text-align: center;
+      color: white;
+      font-family: "Outfit", sans-serif;
+    }
+    ul {
+      text-align: left;
+      color: white;
+      font-size: 22px;
+      font-family: "Outfit", sans-serif;
+    }
+    ul.last {
+      padding-bottom: 30px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .main-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+    }
+  </style>
+  <script
+    src="https://kit.fontawesome.com/c93f296fea.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
